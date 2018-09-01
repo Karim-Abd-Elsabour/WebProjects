@@ -1,0 +1,111 @@
+h4{
+    color:black;
+}
+
+h3{
+    font-size:35px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.siglogo{
+    font-family: 'Dancing Script', cursive;
+}
+.wes {
+    font-family: 'Pacifico', cursive;
+    font-size:25px ;
+}
+p{
+    font-family: 'Quattrocento', serif;
+     font-size:20px;
+}
+
+#home {
+    height:700px;
+    background-image:url(../images/pexels-photo-90807.jpeg);
+    background-size:100% 100%;
+    background-attachment: fixed; 
+}
+.layer{
+  height:100%;width:100%;
+    background-color:rgba(0,0,0,0.4);
+}
+.contnt{
+    padding:25%;
+}
+
+.bg-dark{
+    background-color:rgba(0,0,0,.5) !important;
+}
+
+.logo {
+   
+    border:3px groove white;
+}
+
+.line {
+    background-color:gray;
+    height:5px;
+    width:25px;
+    position:fixed;
+    top:9.5%;
+    left:2.6%;
+}
+
+
+.navbar{
+   
+}
+.navbar .nav-link img:hover{
+
+  transform:rotatez(360deg);
+    transition:2s;
+    animation-name: test;
+    animation-delay: .5s;
+    animation-duration: 
+        2s;
+    animation-direction: alternate;
+}
+@keyframes test{
+    0% {background-color:red;}
+    50%{width:110px;height:70px;}
+        
+    }
+
+.profileimg{
+    opacity: .6;
+    transition:all 1s;
+}
+.profile{
+    background-color:bisque;
+}
+ .profile .profileimg:hover{
+    opacity:1;
+  transform:scale(1.1,1.1);
+}
+
+.lin{
+    height:1px;
+    width:90%;
+    background-color:gray;
+      
+}
+.contnt{
+   
+    color:white;
+}
+
+#contact{
+     background-color:#434242;
+}
+
+#contact p{
+    font-weight: 900;
+}
+#contact i{
+    font-size:30px;
+}
+
+
+
+
+
